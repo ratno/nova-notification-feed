@@ -21,7 +21,6 @@ This package makes use of Laravel's database notification feature and [Nova Echo
 By using [Nova Echo](https://github.com/CoreProc/nova-echo), we have a readily configured Laravel Echo instance in our JS.
 
 Here are the suggested options for broadcasting/receiving using websockets:
-- [Pusher](https://pusher.com)
 - [Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
 - [Laravel Echo Server](https://github.com/tlaverdure/laravel-echo-server)
 
@@ -42,12 +41,8 @@ Before broadcasting any events, you will first need to register the `App\Provide
 Make sure that you configure the correct environment variables in your `.env` file:
 
 ```
-BROADCAST_DRIVER=pusher
+BROADCAST_DRIVER=redis
 
-PUSHER_APP_ID=xxxxxxx
-PUSHER_APP_KEY=xxxxxxx
-PUSHER_APP_SECRET=xxxxxx
-PUSHER_APP_CLUSTER=xxx
 ```
 
 You will also need to ensure that you have added an authorization broadcast route in `routes/channels.php`:

@@ -23,8 +23,6 @@
   export default {
     name: 'NovaNotifications',
     props: [
-      'pusherKey',
-      'pusherCluster',
       'broadcastOn'
     ],
     data () {

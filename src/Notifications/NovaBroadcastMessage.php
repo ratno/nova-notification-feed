@@ -1,6 +1,6 @@
 <?php
 
-namespace Coreproc\NovaNotificationFeed\Notifications;
+namespace Ratno\NovaNotificationFeed\Notifications;
 
 use Illuminate\Notifications\Messages\BroadcastMessage;
 

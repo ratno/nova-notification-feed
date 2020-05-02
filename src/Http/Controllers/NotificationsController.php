@@ -1,8 +1,8 @@
 <?php
 
-namespace Coreproc\NovaNotificationFeed\Http\Controllers;
+namespace Ratno\NovaNotificationFeed\Http\Controllers;
 
-use Coreproc\NovaNotificationFeed\Http\Resources\NotificationCollection;
+use Ratno\NovaNotificationFeed\Http\Resources\NotificationCollection;
 
 class NotificationsController
 {

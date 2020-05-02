@@ -1,6 +1,6 @@
 <?php
 
-namespace Coreproc\NovaNotificationFeed;
+namespace Ratno\NovaNotificationFeed;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -43,7 +43,7 @@ class NovaNotificationFeedServiceProvider extends ServiceProvider
 
         Route::middleware(['nova'])
             ->prefix('nova-vendor/nova-notifications')
-            ->namespace('Coreproc\NovaNotificationFeed\Http\Controllers')
+            ->namespace('Ratno\NovaNotificationFeed\Http\Controllers')
             ->group(__DIR__ . '/../routes/api.php');
 
         Route::middleware(['nova'])

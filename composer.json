@@ -1,5 +1,5 @@
 {
-    "name": "coreproc/nova-notification-feed",
+    "name": "ratno/nova-notification-feed",
     "description": "A Laravel Nova package that adds a notification feed in your Nova app.",
     "keywords": [
         "laravel",
@@ -13,18 +13,17 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "coreproc/nova-echo": "^0.2.0",
-        "pusher/pusher-php-server": "^4.1.1"
+        "ratno/nova-echo": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Coreproc\\NovaNotificationFeed\\": "src/"
+            "Ratno\\NovaNotificationFeed\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Coreproc\\NovaNotificationFeed\\NovaNotificationFeedServiceProvider"
+                "Ratno\\NovaNotificationFeed\\NovaNotificationFeedServiceProvider"
             ]
         }
     },

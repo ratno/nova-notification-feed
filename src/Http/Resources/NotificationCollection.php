@@ -1,6 +1,6 @@
 <?php
 
-namespace Coreproc\NovaNotificationFeed\Http\Resources;
+namespace Ratno\NovaNotificationFeed\Http\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
